@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>tp tugas 1</title>
@@ -37,7 +37,7 @@
     </nav>
 
         <section id="tentangkami">
-            <h1 align="center">Reservasi Kendaraan EAD</h1>
+            <h1 align="right">Reservasi Kendaraan EAD</h1>
             <h6 align="center"> Reservasi Kendaraan EAD, cuma bisa nyewa mobil</h6>
             <center><iframe width="315" height="150" src="http://bit.ly/VideoEAD2020" style="border:2px solid rgba(0, 0, 0, 0.751);" title="Youtube Video Player"
             allow="accelerometer;autoplay;clipboard-write;encrypted-media; gyroscope; picutre-inpicture"
@@ -239,7 +239,7 @@
                 <p>NIM : 1202200201</p>
                 <p>Kelas : SI4403</p>
               </div>
-              <div class="modal-footer">
+              <div class="modal-dialog">
                 <button type="button" class="btn btn-close btn-secondary" data-bs-dismiss="modal">close</button>
               </div>
             </div>
