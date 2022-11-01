@@ -43,7 +43,7 @@
                         $mobil = isset($_GET['mobil']) ? $_GET['mobil'] : null;
                           
                         if ($mobil=="Tesla Model X 2020"){
-                        echo '<img src="https://img.inews.co.id/files/inews_new/2022/03/24/Tesla_Model_X_2020.jpg" class="card-img-top" alt="...">';
+                         '<img src="https://img.inews.co.id/files/inews_new/2022/03/24/Tesla_Model_X_2020.jpg" class="card-img-top" alt="...">';
                       } elseif ($mobil=="Rolls Royce Phantom"){
                         echo '<img src="https://momobil.id/news/wp-content/uploads/2020/05/rolls-royce-phantom-1024x576.jpg" class="card-img-top" alt="...">';
                       } elseif ($mobil=="Ford Mustang Mach-E GT 2021"){

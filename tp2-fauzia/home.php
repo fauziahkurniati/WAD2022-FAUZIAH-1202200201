@@ -109,12 +109,12 @@
       </section>
 
       <!-- Footer -->
-      <Footer style="margin-top: 50px;">
+      <header style="margin-top: 50px;">
         <div style="width: auto;">
           <p style="text-align: center;">
             Created by FAUZIAH KURNIATI_1202200201
           </p>
         </div>
-      </Footer>
+      </header>
 </body>
 </html>

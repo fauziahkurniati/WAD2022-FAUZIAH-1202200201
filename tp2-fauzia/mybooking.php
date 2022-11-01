@@ -1,9 +1,9 @@
 <?php
 
 $id_booking = rand();
-$name = $_POST['name'];
-$date = $_POST['date'];
-$time = $_POST['time'];
+$name = $_GET['name'];
+$date = $_GET['date'];
+$time = $_GET['time'];
 $duration = $_POST['duration'];
 $Car_type = $_POST['car_type'];
 $price = 0;
