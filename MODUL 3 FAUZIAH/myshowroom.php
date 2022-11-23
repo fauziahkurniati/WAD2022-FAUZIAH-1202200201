@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <?php
-    include('config/koneksi.php')
+    include('config/connect.php')
 ?>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
