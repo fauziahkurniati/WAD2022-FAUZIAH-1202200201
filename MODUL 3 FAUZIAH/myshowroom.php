@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <?php
-    include('config/connect.php')
+    include('config/koneksi.php')
 ?>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
@@ -30,30 +30,30 @@
         </div>
     </nav>
 
+
     <div class="container p-5">
         <h2 class="fw-bold">My showroom</h2>
-        <p class="fw-light">List showroom Nama-NIM</p>
+        <p class="fw-light">List showroom Fauziah Kurniati- 1202200201</p>
         <!-- read -->
             <div class="row g-2">
             <?php
                 $sql = "SELECT * FROM mobil ORDER BY id ASC";
                 $query = mysqli_query($koneksi, $sql);
 
-                //cek kalau error
                 if(!$query){
                     die("Error".mysqli_errno($koneksi));
                 }
             
                 while($mycar = mysqli_fetch_assoc($query)){
             ?>
+
+
+
                 <div class="col-4">
                     <div class="card">
-                        <!-- <img src="" class="card-img-top"> -->
-                        <!-- <img src="building.png" alt=""> -->
                         <img src="<?php echo $mycar['foto_mobil']?>" alt="">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $mycar['nama_mobil']?></h5>
-                            <!-- <h5 class="card-title"></h5> -->
                             <p class="card-text"><?php echo $mycar['deskripsi']?></p>  
                             <div class="d-flex justify-content-start">
                                 <div class="row">

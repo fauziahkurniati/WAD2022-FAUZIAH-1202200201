@@ -8,7 +8,7 @@
   </head>
   <?
     $img = array(
-        "./img/toyota-innova-venturer-2020-depan-6a50.png"
+        "asset\rr.jpg"
     );
   ?>
   <body>
@@ -38,13 +38,11 @@
                 <h2>Selamat datang di showroom Fauziah</h2>
                 <br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, alias unde quae repudiandae minus non, obcaecati quaerat blanditiis ab quod eius, laudantium dolorem facere placeat sunt! Nobis vitae corporis sit?</p>
-                <!-- btn -->
                 <a href="add.php" class="btn btn-primary fw-light px-4 py-2">My Car</a>
-                <!-- end btn -->
                 <div class="d-flex justify-content-start">
                     <div class="row mt-5">
                         <div class="col">
-                            <img src="img/logo-ead.png" style="width: 68px;" alt="">
+                            <img src="asset\logo-ead.png" style="width: 68px;" alt="">
                         </div>
                         <div class="col">
                             <p>FAUZIAH KURNIATI_1202200201</p>
@@ -55,7 +53,7 @@
 
 
             <div class="col">
-                <img src="img/toyota-innova-venturer-2020-depan-6a50.png" style="width: 480px" alt="">
+                <img src="asset\rr.jpg" style="width: 480px" alt="">
             </div>
         </div>
     </div>

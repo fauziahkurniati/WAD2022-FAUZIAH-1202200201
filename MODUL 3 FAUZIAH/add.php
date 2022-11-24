@@ -1,6 +1,8 @@
 <?
 require_once 'config/insert.php';
 ?>
+
+
 <!doctype html>
 <html lang="en">
   <head>

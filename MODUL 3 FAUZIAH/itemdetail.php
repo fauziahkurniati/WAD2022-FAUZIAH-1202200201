@@ -38,7 +38,7 @@ require 'home.php';
 
         <div class="row">
             <div class="col">
-                <img src="img/toyota-innova-venturer-2020-depan-6a50.png" style="width: 512px;" alt="">
+                <img src="asset\rr.jpg" style="width: 512px;" alt="">
             </div>
             <div class="col">
                 <form>

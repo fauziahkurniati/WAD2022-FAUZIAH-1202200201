@@ -13,7 +13,7 @@ include 'koneksi.php';
 
 
     $filename = $_FILES['gambar']['name'];        
-    move_upload_file($_FILES['gambar']['tmp_name'], '../'.$filename);
+    move_uploaded_file($_FILES['gambar']['tmp_name'], '../'.$filename);
 
     
     $query = "INSERT INTO showroom_fauziah_table(nama_mobil, pemilik_mobil, merk_mobil, tanggal_beli, deskripsi, foto_mobil, status_pembayaran) VALUE ('$nama', '$pemilik', '$merk', '$tanggal', '$deskripsi', '$filename', '$status')";
