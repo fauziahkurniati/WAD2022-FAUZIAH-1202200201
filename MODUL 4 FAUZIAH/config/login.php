@@ -1,6 +1,6 @@
 <?php 
 
-session_start();
+session_encode();
 include("koneksi.php");
 
 if(isset($_POST['submit'])){
