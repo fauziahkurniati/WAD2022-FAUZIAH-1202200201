@@ -29,7 +29,7 @@
                     </div>
                     <?php  $error = isset($_GET['error']) ? $_GET['error'] : null; ?>
                     <?php  if (isset($error)) : ?>
-                        <p style='text-align: center; color:red'>password salah</p>
+                        <p style='text-align: center; color:red'>password salah</p>`
                     <?php endif; ?>
                     <div class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="remember" name="remember" value="remember">
